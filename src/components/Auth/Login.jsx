@@ -4,8 +4,8 @@ const Login = ({handleLogin}) => {
 
     
 
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+  const [email, setEmail] = useState('abhipal2330@gmail.com');
+  const [password, setPassword] = useState('123');
 
 
     const submitHandler = (e)=>{
